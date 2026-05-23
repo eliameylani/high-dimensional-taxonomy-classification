@@ -90,6 +90,13 @@ Tahapan penelitian yang dilakukan:
 
 ---
 
+# 📡 Pipeline Penelitian
+
+Diagram berikut menunjukkan alur proses klasifikasi taxonomy pada data berdimensi tinggi menggunakan metode IPCA, KNN, dan Naive Bayes.
+
+![Pipeline Penelitian](images/pipeline.png)
+
+---
 # 📊 Evaluasi Model
 
 Model dievaluasi menggunakan beberapa metrik machine learning, antara lain:
@@ -221,8 +228,6 @@ Terima kasih kepada:
 - Program Studi Sains Data ITERA
 
 ---
-
-# 🔗 Tautan Penting
 
 # 🔗 Tautan Penting
 
