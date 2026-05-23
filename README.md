@@ -82,14 +82,17 @@ Model dievaluasi menggunakan beberapa metrik machine learning, antara lain:
 
 # 📷 Visualisasi
 
-## 🔹 Confusion Matrix
-![Confusion Matrix](images/confusion_matrix.png)
+## 🔹 Confusion Matrix Gaussian Naive Bayes
+![Confusion Matrix GNB](confusion_matrix_gnb_top10%20(1).png)
 
-## 🔹 Perbandingan Akurasi Model
-![Accuracy Comparison](images/accuracy_comparison.png)
+## 🔹 Confusion Matrix K-Nearest Neighbor
+![Confusion Matrix KNN](confusion_matrix_knn_top10%20(2).png)
 
-## 🔹 Visualisasi IPCA
-![IPCA Visualization](images/ipca_visualization.png)
+## 🔹 Visualisasi Variance IPCA
+![IPCA Variance](ipca_variance_90_standardscaler.png)
+
+## 🔹 Radar Chart Macro Multiclass
+![Radar Chart](radar_chart_macro_multiclass.png)
 
 ---
 
