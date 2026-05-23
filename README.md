@@ -94,7 +94,7 @@ Tahapan penelitian yang dilakukan:
 
 Diagram berikut menunjukkan alur proses klasifikasi taxonomy pada data berdimensi tinggi menggunakan metode IPCA, KNN, dan Naive Bayes.
 
-![Pipeline Penelitian](images/pipeline.png)
+![Pipeline Penelitian](images/Flowchart.png)
 
 ---
 # 📊 Evaluasi Model
