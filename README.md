@@ -83,10 +83,10 @@ Model dievaluasi menggunakan beberapa metrik machine learning, antara lain:
 # 📷 Visualisasi
 
 ## 🔹 Confusion Matrix Gaussian Naive Bayes
-![Confusion Matrix GNB](confusion_matrix_gnb_top10%20(1).png)
+![Confusion Matrix GNB](confusion_matrix_gnb_top(1).png)
 
 ## 🔹 Confusion Matrix K-Nearest Neighbor
-![Confusion Matrix KNN](confusion_matrix_knn_top10%20(2).png)
+![Confusion Matrix KNN](confusion_matrix_knn_top10(2).png)
 
 ## 🔹 Visualisasi Variance IPCA
 ![IPCA Variance](ipca_variance_90_standardscaler.png)
