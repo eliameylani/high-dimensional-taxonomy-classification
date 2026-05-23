@@ -224,5 +224,6 @@ Terima kasih kepada:
 
 # 🔗 Tautan Penting
 
-- 📄 Repository GitHub: https://github.com/sains-data/high-dimensional-taxonomy-classification
-- 📊 Dataset: tersedia pada folder `data/`
+# 🔗 Tautan Penting
+
+- 📄 Repository GitHub: https://github.com/eliameylani/high-dimensional-taxonomy-classification
