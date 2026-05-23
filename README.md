@@ -1,8 +1,12 @@
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Machine Learning](https://img.shields.io/badge/Machine-Learning-green)
+![Bioinformatics](https://img.shields.io/badge/Bioinformatics-orange)
+
 # 🌟 High-Dimensional Taxonomy Classification using IPCA, KNN, and Naive Bayes
 
 Proyek ini merupakan implementasi machine learning untuk melakukan klasifikasi class taxonomy pada data berdimensi tinggi menggunakan metode **Incremental Principal Component Analysis (IPCA)** sebagai teknik reduksi dimensi, serta membandingkan performa algoritma **K-Nearest Neighbor (KNN)** dan **Naive Bayes (NB)** dalam proses klasifikasi.
 
-Penelitian ini bertujuan untuk menganalisis efektivitas metode klasifikasi pada data berdimensi tinggi serta mengevaluasi pengaruh reduksi dimensi terhadap performa model machine learning.
+Penelitian ini bertujuan untuk menganalisis efektivitas metode klasifikasi pada data berdimensi tinggi serta mengevaluasi pengaruh reduksi dimensi terhadap performa model machine learning dalam bidang bioinformatika.
 
 ---
 
@@ -31,12 +35,27 @@ Digunakan sebagai metode klasifikasi probabilistik berbasis Teorema Bayes.
 - Mengevaluasi hasil klasifikasi menggunakan metrik evaluasi machine learning
 - Menganalisis pengaruh reduksi dimensi terhadap performa model
 - Mengembangkan pipeline machine learning untuk klasifikasi taxonomy
+- Mengimplementasikan pendekatan machine learning pada data bioinformatika
 
 ---
 
 # 📂 Dataset
 
-Dataset yang digunakan merupakan dataset berdimensi tinggi yang digunakan untuk proses klasifikasi class taxonomy.
+Dataset yang digunakan merupakan dataset biological sequence berdimensi tinggi yang digunakan untuk proses klasifikasi class taxonomy.
+
+Dataset telah melalui beberapa tahapan preprocessing, antara lain:
+- Data cleaning
+- Sequence preprocessing
+- Feature extraction
+- Feature scaling
+- Reduksi dimensi menggunakan IPCA
+
+📌 Format dataset:
+- Biological sequence data
+- Taxonomy/class label
+
+📎 Dataset tersedia pada folder `data/`
+
 ---
 
 # 🛠️ Teknologi yang Digunakan
@@ -48,6 +67,8 @@ Dataset yang digunakan merupakan dataset berdimensi tinggi yang digunakan untuk 
 | NumPy | Operasi numerik dan komputasi array |
 | Scikit-learn | Implementasi IPCA, KNN, dan Naive Bayes |
 | Matplotlib | Visualisasi data dan evaluasi model |
+| Seaborn | Visualisasi confusion matrix dan grafik evaluasi |
+| BioPython | Pengolahan dan analisis biological sequence |
 | Jupyter Notebook | Lingkungan pengembangan dan eksperimen model |
 
 ---
@@ -58,13 +79,14 @@ Tahapan penelitian yang dilakukan:
 
 1. Data Cleaning  
 2. Data Preprocessing  
-3. Feature Scaling  
-4. Reduksi Dimensi menggunakan IPCA  
-5. Pemodelan menggunakan:
+3. Feature Extraction  
+4. Feature Scaling  
+5. Reduksi Dimensi menggunakan IPCA  
+6. Pemodelan menggunakan:
    - K-Nearest Neighbor (KNN)
    - Naive Bayes (NB)
-6. Evaluasi Model  
-7. Perbandingan Performa Model
+7. Evaluasi Model  
+8. Perbandingan Performa Model
 
 ---
 
@@ -77,6 +99,21 @@ Model dievaluasi menggunakan beberapa metrik machine learning, antara lain:
 - Recall
 - F1-Score
 - Confusion Matrix
+- ROC Curve
+- AUC Score
+
+---
+
+# 🏆 Hasil Penelitian
+
+Hasil eksperimen menunjukkan bahwa metode IPCA mampu membantu proses reduksi dimensi pada dataset berdimensi tinggi sehingga meningkatkan efisiensi klasifikasi.
+
+Performa model menunjukkan bahwa:
+- Model KNN memiliki performa klasifikasi yang lebih stabil pada data berdimensi tinggi
+- Naive Bayes memiliki waktu komputasi yang lebih cepat
+- IPCA membantu mengurangi kompleksitas fitur tanpa mengurangi performa model secara signifikan
+
+📌 Hasil evaluasi divisualisasikan menggunakan confusion matrix, radar chart, dan grafik variance IPCA.
 
 ---
 
@@ -93,6 +130,7 @@ Model dievaluasi menggunakan beberapa metrik machine learning, antara lain:
 
 ## 🔹 Radar Chart Macro Multiclass
 ![Radar Chart](images/radar_chart.png)
+
 ---
 
 # 📁 Struktur Project
@@ -138,9 +176,7 @@ pip install -r requirements.txt
 
 ---
 
-## 4. Jalankan Notebook
-
-Buka Jupyter Notebook:
+## 4. Jalankan Jupyter Notebook
 
 ```bash
 jupyter notebook
@@ -149,6 +185,18 @@ jupyter notebook
 Kemudian jalankan notebook:
 - `01_preprocessing.ipynb`
 - `02_modeling_knn_nb.ipynb`
+
+---
+
+# 🚀 Future Improvement
+
+Pengembangan lebih lanjut yang dapat dilakukan:
+
+- Implementasi metode deep learning untuk klasifikasi taxonomy
+- Optimasi hyperparameter menggunakan GridSearchCV
+- Eksplorasi metode reduksi dimensi lainnya seperti t-SNE dan UMAP
+- Penggunaan dataset biological sequence yang lebih besar
+- Implementasi deployment model berbasis web
 
 ---
 
@@ -177,3 +225,4 @@ Terima kasih kepada:
 # 🔗 Tautan Penting
 
 - 📄 Repository GitHub: https://github.com/sains-data/high-dimensional-taxonomy-classification
+- 📊 Dataset: tersedia pada folder `data/`
